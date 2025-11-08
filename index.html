@@ -1,0 +1,197 @@
+<!--PORTFOLIO-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tirth Raval | Portfolio</title>
+  <style>
+    :root {
+      --dark-bg: #020c1ea5;
+      --nav-bg: #8492ac;
+      --card-bg: #2e3647;
+      --accent: #3f6da9;
+      --light-accent: #6da4e0;
+      --text-light: #fffdfd;
+      --text-muted: #c9c9c9;
+      --shadow: 0 6px 18px rgba(0,0,0,0.2);
+      --radius: 12px;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(160deg, var(--dark-bg), #202731);
+      color: var(--text-light);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      text-align: center;
+      padding: 50px 20px 25px;
+      color: rgb(242, 242, 243);
+    }
+    header h1 {
+      font-size: 36px;
+      color: #ffffff; /* soft oak tone */
+      letter-spacing: 1px;
+      font-weight: 700;
+    }
+    header p {
+      color: var(--text-muted);
+      margin-top: 5px;
+      font-size: 15px;
+    }
+
+    /* Navbar */
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      background-color: var(--nav-bg);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 12px 25px;
+      gap: 18px;
+      margin: 25px 0 40px; }
+    nav a {
+      text-decoration: none;
+      color: var(--text-light);
+      font-weight: 600;
+      padding: 10px 15px;
+      border-radius: var(--radius);
+      transition: all 0.3s ease; }
+    nav a:hover {
+      background-color: var(--accent);
+      color: #fff;
+      transform: translateY(-2px);  }
+    main {
+      width: 90%;
+      max-width: 950px;
+      background-color: var(--card-bg);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 50px 60px;
+      margin-bottom: 40px;  }
+    section {
+      margin-bottom: 60px;
+      padding-bottom: 25px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);  }
+    h2 {
+      color: var(--light-accent);
+      font-size: 24px;
+      margin-bottom: 12px; }
+    h3 {
+      color: var(--text-light);
+      font-size: 18px;
+      margin-top: 12px; }
+    p {
+      color: var(--text-muted);
+      line-height: 1.7;
+      margin-bottom: 10px;  }
+    ul {
+      margin-left: 20px;
+      color: var(--text-muted);
+      line-height: 1.8;  }
+    .button {
+      display: inline-block;
+      background-color: var(--accent);
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: var(--radius);
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 10px rgba(63,109,169,0.4);  }
+    .button:hover {
+      background-color: var(--light-accent);
+      transform: scale(1.05);  }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: var(--text-muted);
+      font-size: 14px;
+      background-color: var(--nav-bg);
+      width: 100%;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      box-shadow: 0 -3px 10px rgba(0,0,0,0.3);    }
+    @media (max-width: 768px) {
+      main {
+        padding: 30px 25px; }
+      header h1 {
+        font-size: 28px; }
+      nav {
+        padding: 10px 20px; }
+      nav a {
+        font-size: 14px;
+        padding: 8px 10px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tirth Raval</h1>
+    <p>Portfolio • AI & Marketing Enthusiast</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+    <a href="login.html">Login</a>
+  </nav>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm <strong>Tirth Raval</strong>, a curious and creative learner passionate about combining technology and marketing. I believe in the power of data, design, and storytelling to build better digital experiences. My current focus is on AI-driven marketing and digital product development.</p>
+      <p>I’m pursuing <strong>B.Tech in Computer Engineering (AI & ML)</strong> at JG University, and constantly exploring how automation, analytics, and user experience intersect to shape the future of business.</p>
+    </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <h3>Store Owner — Pritirth Watches (Jan 2025 - Mar 2025)</h3>
+      <p>Built and managed an online Shopify store. Led campaigns, designed visuals, and interacted with customers to refine business insights and increase growth.</p>
+      <h3>Marketing Intern — TrendyHub38 (Jan 2024 - Jul 2024)</h3>
+      <p>Developed and ran Instagram ad campaigns that boosted product sales by 50%. Enhanced my understanding of branding and consumer psychology.</p>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Digital Marketing (Google Ads, Meta Ads)</li>
+        <li>Web Design: HTML, CSS</li>
+        <li>Communication & Team Collaboration</li>
+        <li>Data Analytics & Visualization</li>
+        <li>Shopify, Vertex AI</li>
+      </ul>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <p><strong>B.Tech Computer Engineering (AI & ML)</strong> — JG University, Ahmedabad (Pursuing)</p>
+      <p><strong>Diploma in Computer Engineering</strong> — LJ Polytechnic, Ahmedabad (CGPA: 6.0, 2025)</p>
+    </section>
+    <section id="achievements">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Boosted sales by 50% through social media strategy</li>
+        <li>Recognized for innovative prompt design using Vertex AI</li>
+        <li>Received MVP Group Award at LJ Fest</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:traval074@gmail.com" style="color:var(--light-accent)">traval074@gmail.com</a></p>
+      <p>Phone: +91 8799411617</p>
+      <a href="login.html" class="button">Join My Network</a>
+    </section>
+  </main>
+  <footer>
+    © 2025 Tirth Raval | Portfolio Website
+  </footer>
+</body>
+</html>
